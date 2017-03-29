@@ -2,9 +2,9 @@
 require 'class-loader.php';
 
 
-use Volkhin\Pogazam\BusinessLogic;
+use Volkhin\Pogazam\Calculator;
 
-$businessLogic = new BusinessLogic($_POST);
+$businessLogic = new Calculator\BusinessLogic($_POST);
 $result = $businessLogic->Process();
 
 echo $result;

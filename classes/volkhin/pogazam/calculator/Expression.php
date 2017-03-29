@@ -6,7 +6,7 @@
  * Time: 19:54
  */
 
-namespace Volkhin\Pogazam;
+namespace Volkhin\Pogazam\Calculator;
 
 
 class Expression

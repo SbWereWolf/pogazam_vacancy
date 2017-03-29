@@ -1,6 +1,6 @@
 <?php
 
-namespace Volkhin\Pogazam;
+namespace Volkhin\Pogazam\Calculator;
 
 
 class BusinessLogic

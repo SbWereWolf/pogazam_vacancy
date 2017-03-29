@@ -1,6 +1,6 @@
 <?php
 
-namespace Volkhin\Pogazam;
+namespace Volkhin\Pogazam\Calculator;
 
 
 class Calculator
@@ -17,7 +17,12 @@ class Calculator
 
     public function Calculate():float
     {
-        $result = eval('return '.$this->expression->argumentA.$this->expression->operation.$this->expression->argumentB.';');
+        $result = eval(
+            'return '
+            . $this->expression->argumentA
+            . $this->expression->operation
+            . $this->expression->argumentB
+            . ';');
         return $result;
     }
 

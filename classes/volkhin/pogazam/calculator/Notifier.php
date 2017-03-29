@@ -6,7 +6,7 @@
  * Time: 19:46
  */
 
-namespace Volkhin\Pogazam;
+namespace Volkhin\Pogazam\Calculator;
 
 
 class Notifier
